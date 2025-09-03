@@ -6,7 +6,11 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
+        - /RobotModel1
         - /TF1
+        - /LaserScan1
+        - /Map1
+        - /Map1/Status1
       Splitter Ratio: 0.5
     Tree Height: 746
   - Class: rviz_common/Selection
@@ -26,7 +30,7 @@ Panels:
     Experimental: false
     Name: Time
     SyncMode: 0
-    SyncSource: LaserScan
+    SyncSource: ""
 Visualization Manager:
   Class: ""
   Displays:
@@ -58,7 +62,7 @@ Visualization Manager:
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /tb15/robot_description
+        Value: /tb11/robot_description
       Enabled: true
       Links:
         All Links Enabled: true
@@ -337,8 +341,6 @@ Visualization Manager:
           Value: true
         front_right_tower_standoff:
           Value: true
-        imu:
-          Value: true
         imu_link:
           Value: true
         ir_intensity_front_center_left:
@@ -403,100 +405,7 @@ Visualization Manager:
       Show Axes: false
       Show Names: false
       Tree:
-        base_link:
-          bump_front_center:
-            {}
-          bump_front_left:
-            {}
-          bump_front_right:
-            {}
-          bump_left:
-            {}
-          bump_right:
-            {}
-          bumper:
-            {}
-          button_1:
-            {}
-          button_2:
-            {}
-          button_power:
-            {}
-          cliff_front_left:
-            {}
-          cliff_front_right:
-            {}
-          cliff_side_left:
-            {}
-          cliff_side_right:
-            {}
-          front_caster_link:
-            {}
-          front_left_bottom_weight_block:
-            {}
-          front_left_top_weight_block:
-            {}
-          front_right_bottom_weight_block:
-            {}
-          front_right_top_weight_block:
-            {}
-          imu:
-            {}
-          imu_link:
-            {}
-          ir_intensity_front_center_left:
-            {}
-          ir_intensity_front_center_right:
-            {}
-          ir_intensity_front_left:
-            {}
-          ir_intensity_front_right:
-            {}
-          ir_intensity_left:
-            {}
-          ir_intensity_right:
-            {}
-          ir_intensity_side_left:
-            {}
-          ir_omni:
-            {}
-          mouse:
-            {}
-          shell_link:
-            front_left_tower_standoff:
-              {}
-            front_right_tower_standoff:
-              {}
-            oakd_camera_bracket:
-              oakd_link:
-                oakd_imu_frame:
-                  {}
-                oakd_left_camera_frame:
-                  oakd_left_camera_optical_frame:
-                    {}
-                oakd_rgb_camera_frame:
-                  oakd_rgb_camera_optical_frame:
-                    {}
-                oakd_right_camera_frame:
-                  oakd_right_camera_optical_frame:
-                    {}
-            rear_left_tower_standoff:
-              {}
-            rear_right_tower_standoff:
-              {}
-            rplidar_link:
-              {}
-            tower_sensor_plate:
-              {}
-          wheel_drop_left:
-            left_wheel:
-              {}
-          wheel_drop_right:
-            right_wheel:
-              {}
-        odom:
-          base_footprint:
-            {}
+        {}
       Update Interval: 0
       Value: true
     - Alpha: 1
@@ -529,14 +438,35 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /tb15/scan
+        Value: /tb11/scan
       Use Fixed Frame: true
       Use rainbow: true
+      Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz_default_plugins/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: true
+      Name: Map
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        Filter size: 10
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /tb11/map
+      Update Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /tb11/map_updates
+      Use Timestamp: false
       Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: base_link
+    Fixed Frame: map
     Frame Rate: 30
   Name: root
   Tools:
@@ -578,26 +508,21 @@ Visualization Manager:
   Value: true
   Views:
     Current:
-      Class: rviz_default_plugins/Orbit
-      Distance: 3.884662389755249
+      Angle: -3.2900044918060303
+      Class: rviz_default_plugins/TopDownOrtho
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
-      Focal Point:
-        X: 0
-        Y: 0
-        Z: 0
-      Focal Shape Fixed Size: true
-      Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.5697963237762451
+      Scale: 39.390262603759766
       Target Frame: <Fixed Frame>
-      Value: Orbit (rviz)
-      Yaw: 1.7104041576385498
+      Value: TopDownOrtho (rviz_default_plugins)
+      X: 0
+      Y: 0
     Saved: ~
 Window Geometry:
   Displays:

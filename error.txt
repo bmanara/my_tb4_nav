@@ -1,0 +1,132 @@
+[bt_navigator-5] [INFO] [1749051727.064841190] [tb6.bt_navigator]: Begin navigating from current location (-2.34, -0.77) to (-6.88, -0.65)
+[bt_navigator-5] [WARN] [1749051727.138031695] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1749051727.138167009] [tb6.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for compute_path_to_pose
+[bt_navigator-5] [WARN] [1749051727.161637699] [tb6.bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to global_costmap/clear_entirely_global_costmap.
+[bt_navigator-5] [WARN] [1749051727.168412594] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1749051727.178911081] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1749051727.182274325] [tb6.bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to local_costmap/clear_entirely_local_costmap.
+[bt_navigator-5] [WARN] [1749051727.195333267] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1749051727.201533150] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1749051727.207044279] [tb6.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for spin
+[bt_navigator-5] [WARN] [1749051727.215028847] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1749051727.230209806] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1749051727.230351138] [tb6.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for wait
+[bt_navigator-5] [WARN] [1749051727.251584480] [tb6.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for backup
+[bt_navigator-5] [WARN] [1749051727.324721263] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1749051727.324900391] [tb6.bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1749051727.325784253] [tb6.bt_navigator]: Goal failed
+[controller_server-1] [INFO] [1749051727.451968651] [tb6.local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+
+
+[behavior_server-4] [WARN] [1749051740.298825526] [tb6.behavior_server]: Exceeded time allowance before reaching the DriveOnHeading goal - Exiting DriveOnHeading
+[behavior_server-4] [WARN] [1749051740.299087986] [tb6.behavior_server]: backup failed
+[behavior_server-4] [WARN] [1749051740.299179948] [tb6.behavior_server]: [backup] [ActionServer] Aborting handle.
+[bt_navigator-5] [INFO] [1749051744.217001977] [tb6.bt_navigator]: Begin navigating from current location (-2.88, -0.78) to (-5.03, -0.89)
+[bt_navigator-5] [WARN] [1749051744.272005628] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1749051744.290412554] [tb6.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for compute_path_to_pose
+[bt_navigator-5] [WARN] [1749051744.312692219] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1749051744.312863328] [tb6.bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to global_costmap/clear_entirely_global_costmap.
+[bt_navigator-5] [WARN] [1749051744.333896357] [tb6.bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to local_costmap/clear_entirely_local_costmap.
+[bt_navigator-5] [WARN] [1749051744.420455210] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1749051744.420796577] [tb6.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for spin
+[bt_navigator-5] [WARN] [1749051744.447110738] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1749051744.447282366] [tb6.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for wait
+[bt_navigator-5] [WARN] [1749051744.470272783] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1749051744.470436615] [tb6.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for backup
+[bt_navigator-5] [WARN] [1749051744.482219959] [tb6.bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1749051744.507039765] [tb6.bt_navigator]: Goal failed
+
+[planner_server-3] [INFO] [1755501026.893284700] [tb9.global_costmap.global_costmap]: Message Filter dropping message: frame 'rplidar_link' at time 1755501026.401 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[bt_navigator-5] [INFO] [1755501031.313100267] [tb9.bt_navigator]: Begin navigating from current location (-5.87, 0.14) to (-7.36, 0.62)
+[bt_navigator-5] [WARN] [1755501031.335272035] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1755501031.340638253] [tb9.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for compute_path_to_pose
+[bt_navigator-5] [WARN] [1755501031.363438289] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1755501031.379834752] [tb9.bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to global_costmap/clear_entirely_global_costmap.
+[bt_navigator-5] [WARN] [1755501031.393808399] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1755501031.402578752] [tb9.bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to local_costmap/clear_entirely_local_costmap.
+[bt_navigator-5] [WARN] [1755501031.425741543] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1755501031.425880929] [tb9.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for spin
+[bt_navigator-5] [WARN] [1755501031.458450323] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1755501031.458594580] [tb9.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for wait
+[behavior_server-4] [INFO] [1755501031.465534571] [tb9.behavior_server]: Running backup
+[behavior_server-4] [INFO] [1755501031.468721487] [tb9.behavior_server]: DriveOnHeading: no acceleration or deceleration limits set
+[behavior_server-4] [INFO] [1755501031.470027801] [tb9.behavior_server]: Running spin
+[behavior_server-4] [INFO] [1755501031.476503651] [tb9.behavior_server]: Turning 1.57 for spin behavior.
+[behavior_server-4] [INFO] [1755501031.475121689] [tb9.behavior_server]: Running wait
+[bt_navigator-5] [WARN] [1755501031.493195573] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1755501031.493345367] [tb9.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for backup
+[bt_navigator-5] [WARN] [1755501031.507319866] [tb9.bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1755501031.509196672] [tb9.bt_navigator]: Goal failed
+[planner_server-3] [INFO] [1755501031.723874359] [tb9.global_costmap.global_costmap]: Message Filter dropping message: frame 'rplidar_link' at time 1755501030.516 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-3] [INFO] [1755501032.105399657] [tb9.global_costmap.global_costmap]: Message Filter dropping message: frame 'rplidar_link' at time 1755501030.782 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-3] [INFO] [1755501032.464940796] [tb9.global_costmap.global_costmap]: Message Filter dropping message: frame 'rplidar_link' at time 1755501031.687 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-3] [INFO] [1755501032.646905037] [tb9.global_costmap.global_costmap]: Message Filter dropping message: frame 'rplidar_link' at time 1755501031.806 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-1] [INFO] [1755501033.065988415] [tb9.local_costmap.local_costmap]: Message Filter dropping message: frame 'rplidar_link' at time 1755501032.456 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-3] [INFO] [1755501033.226544636] [tb9.global_costmap.global_costmap]: Message Filter dropping message: frame 'rplidar_link' at time 1755501032.585 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-3] [INFO] [1755501033.516201984] [tb9.global_costmap.global_costmap]: Message Filter dropping message: frame 'rplidar_link' at time 1755501032.705 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-3] [INFO] [1755501033.542944129] [tb9.global_costmap.global_costmap]: Message Filter dropping message: frame 'rplidar_link' at time 1755501032.840 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-3] [INFO] [1755501033.615869375] [tb9.global_costmap.global_costmap]: Message Filter dropping message: frame 'rplidar_link' at time 1755501032.964 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-3] [INFO] [1755501033.638210178] [tb9.global_costmap.global_costmap]: Message Filter dropping message: frame 'rplidar_link' at time 1755501033.096 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[behavior_server-4] [INFO] [1755501036.491118558] [tb9.behavior_server]: wait completed successfully
+[behavior_server-4] [INFO] [1755501037.491057775] [tb9.behavior_server]: spin completed successfully
+[planner_server-3] [INFO] [1755501038.328078084] [tb9.global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [WARN] [1755501039.256209762] [tb9.planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 1.0878 Hz
+[behavior_server-4] [WARN] [1755501041.474653920] [tb9.behavior_server]: Exceeded time allowance before reaching the DriveOnHeading goal - Exiting DriveOnHeading
+[behavior_server-4] [WARN] [1755501041.474819584] [tb9.behavior_server]: backup failed
+[behavior_server-4] [WARN] [1755501041.474886880] [tb9.behavior_server]: [backup] [ActionServer] Aborting handle.
+
+[lifecycle_manager-8] [ERROR] [1755498672.724240349] [tb9.lifecycle_manager_navigation]: Failed to change state for node: planner_server. Exception: planner_server/get_state service client: async_send_request failed.
+[lifecycle_manager-8] [ERROR] [1755498672.724457753] [tb9.lifecycle_manager_navigation]: Failed to bring up all requested nodes. Aborting bringup.
+
+[bt_navigator-5] [INFO] [1753908167.956901741] [tb7.bt_navigator]: Begin navigating from current location (-5.74, -1.19) to (-6.86, -1.11)
+[bt_navigator-5] [WARN] [1753908168.004536919] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1753908168.046174814] [tb7.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for compute_path_to_pose
+[planner_server-3] [INFO] [1753908168.057475461] [tb7.global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1753908168.069992339] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1753908168.073856047] [tb7.bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to global_costmap/clear_entirely_global_costmap.
+[controller_server-1] [INFO] [1753908168.085882170] [tb7.local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[bt_navigator-5] [WARN] [1753908168.101555206] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1753908168.101713760] [tb7.bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to local_costmap/clear_entirely_local_costmap.
+[bt_navigator-5] [WARN] [1753908168.112734002] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1753908168.123245841] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1753908168.128301632] [tb7.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for spin
+[behavior_server-4] [INFO] [1753908168.141140359] [tb7.behavior_server]: Running spin
+[behavior_server-4] [INFO] [1753908168.141703817] [tb7.behavior_server]: Turning 1.57 for spin behavior.
+[bt_navigator-5] [WARN] [1753908168.176068106] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1753908168.176194568] [tb7.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for wait
+[bt_navigator-5] [WARN] [1753908168.200297775] [tb7.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for backup
+[behavior_server-4] [INFO] [1753908168.206081079] [tb7.behavior_server]: Running wait
+[bt_navigator-5] [WARN] [1753908168.207872823] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1753908168.208045544] [tb7.bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1753908168.229292886] [tb7.bt_navigator]: Goal failed
+[behavior_server-4] [INFO] [1753908168.287159869] [tb7.behavior_server]: Running backup
+[behavior_server-4] [INFO] [1753908168.293277929] [tb7.behavior_server]: DriveOnHeading: no acceleration or deceleration limits set
+[behavior_server-4] [INFO] [1753908172.545518375] [tb7.behavior_server]: spin completed successfully
+[behavior_server-4] [INFO] [1753908173.210949145] [tb7.behavior_server]: wait completed successfully
+[behavior_server-4] [INFO] [1753908176.994524927] [tb7.behavior_server]: backup completed successfully
+
+[bt_navigator-5] [INFO] [1753908244.405279993] [tb7.bt_navigator]: Begin navigating from current location (-5.77, -0.92) to (-4.43, -1.97)
+[bt_navigator-5] [WARN] [1753908244.423031124] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1753908244.429712846] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1753908244.435060116] [tb7.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for compute_path_to_pose
+[planner_server-3] [INFO] [1753908244.436678029] [tb7.global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-5] [WARN] [1753908244.441147084] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1753908244.447760067] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1753908244.455845777] [tb7.bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to global_costmap/clear_entirely_global_costmap.
+[controller_server-1] [INFO] [1753908244.457565170] [tb7.local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[bt_navigator-5] [WARN] [1753908244.476868566] [tb7.bt_navigator_navigate_to_pose_rclcpp_node]: Node timed out while executing service call to local_costmap/clear_entirely_local_costmap.
+[bt_navigator-5] [WARN] [1753908244.497822780] [tb7.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for spin
+[bt_navigator-5] [WARN] [1753908244.506629985] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-5] [WARN] [1753908244.518950198] [tb7.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for wait
+[behavior_server-4] [INFO] [1753908244.530345473] [tb7.behavior_server]: Running spin
+[behavior_server-4] [INFO] [1753908244.534683567] [tb7.behavior_server]: Turning 1.57 for spin behavior.
+[bt_navigator-5] [WARN] [1753908244.539827839] [tb7.bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for backup
+[bt_navigator-5] [WARN] [1753908244.545684401] [tb7.bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1753908244.571944739] [tb7.bt_navigator]: Goal failed
+[behavior_server-4] [INFO] [1753908244.576238407] [tb7.behavior_server]: Running backup
+[behavior_server-4] [INFO] [1753908244.583513717] [tb7.behavior_server]: Running wait
+[behavior_server-4] [INFO] [1753908248.335251597] [tb7.behavior_server]: spin completed successfully
+[behavior_server-4] [INFO] [1753908249.583990430] [tb7.behavior_server]: wait completed successfully
+[behavior_server-4] [WARN] [1753908254.580248438] [tb7.behavior_server]: Exceeded time allowance before reaching the DriveOnHeading goal - Exiting DriveOnHeading
+[behavior_server-4] [WARN] [1753908254.580397419] [tb7.behavior_server]: backup failed
+[behavior_server-4] [WARN] [1753908254.580443418] [tb7.behavior_server]: [backup] [ActionServer] Aborting handle.
